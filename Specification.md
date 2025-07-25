@@ -94,7 +94,7 @@ When a round starts, present each player with a series of **10 timed multiple-ch
 
 ### Easter Egg Feature
 
-* Include a footer with: `© 2025. Built with ❤️ using caffeine.ai`
+* Include a footer with: `© 2025. Started with ❤️ using [caffeine.ai](https://caffeine.ai) Extended with Humans + Claude Code`
 * When any user **double-clicks the heart icon (❤️)** in the footer:
 
   * The heart changes to a black heart emoji (🖤).

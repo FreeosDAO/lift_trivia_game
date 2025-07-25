@@ -532,7 +532,7 @@ function Lobby() {
           margin: 0,
           fontSize: '0.875rem'
         }}>
-          © 2025. Built with{' '}
+          © 2025. Started with{' '}
           <span 
             style={{ margin: '0 0.25rem', cursor: 'pointer', userSelect: 'none' }}
             onDoubleClick={handleHeartDoubleClick}

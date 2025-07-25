@@ -1287,7 +1287,7 @@ function TriviaGame({ language, onGameEnd }: TriviaGameProps) {
         {/* Footer */}
         <footer className="text-center py-6 text-muted">
           <p className="flex items-center justify-center">
-            © 2025. Built with{' '}
+            © 2025. Started with{' '}
             <span 
               className="mx-1 cursor-pointer select-none"
               onDoubleClick={() => setHeartIsBlack(true)}
@@ -1467,7 +1467,7 @@ function TriviaGame({ language, onGameEnd }: TriviaGameProps) {
       {/* Footer */}
       <footer className="text-center py-6 text-muted">
         <p className="flex items-center justify-center">
-          © 2025. Built with{' '}
+          © 2025. Started with{' '}
           <span 
             className="mx-1 cursor-pointer select-none"
             onDoubleClick={handleHeartDoubleClick}
