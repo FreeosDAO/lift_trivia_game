@@ -1,0 +1,140 @@
+# DFINITY/Internet Computer
+.dfx/
+canister_ids.json
+
+# Node.js Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Frontend Build Outputs
+frontend/dist/
+frontend/build/
+frontend/.vite/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE/Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+lerna-debug.log*
+
+# Runtime Data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage Directory
+coverage/
+*.lcov
+.nyc_output/
+
+# Dependency Directories
+jspm_packages/
+
+# Optional npm/yarn/pnpm Cache
+.npm/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Optional ESLint Cache
+.eslintcache
+
+# Optional Stylelint Cache
+.stylelintcache
+
+# Microbundle Cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL History
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity File
+.yarn-integrity
+
+# Temporary Folders
+tmp/
+temp/
+
+# TypeScript Cache
+*.tsbuildinfo
+
+# Optional npm Cache Directory
+.npm
+
+# Optional JSPM Cache Directory
+.jspm
+
+# Stores VSCode Versions Used for Testing VSCode Extensions
+.vscode-test
+
+# Webpack Bundle Analyzer
+.webpack-bundle-analyzer/
+
+# Parcel Cache
+.cache/
+.parcel-cache/
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+dist/
+
+# Gatsby files
+.cache/
+public/
+
+# Storybook build outputs
+.out/
+.storybook-out/
+
+# Temporary public files
+.tmp/
+
+# Local Netlify folder
+.netlify/
+
+# SvelteKit build / generate output
+.svelte-kit/
+
+# End of https://www.toptal.com/developers/gitignore/api/node,vscode,macos,linux,windows

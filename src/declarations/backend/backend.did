@@ -1,0 +1,22 @@
+type Time = int;
+type Round = 
+ record {
+   language: text;
+   players: vec Player;
+   startTime: Time;
+ };
+type Player = 
+ record {
+   id: principal;
+   language: text;
+   ready: bool;
+ };
+service : {
+  addPlayer: (text) -> ();
+  createRound: (text) -> ();
+  getAllPlayers: () -> (vec Player) query;
+  getAllRounds: () -> (vec Round) query;
+  getPlayer: (principal) -> (opt Player) query;
+  getRound: (Time) -> (opt Round) query;
+  initializeAuth: () -> ();
+}
